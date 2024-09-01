@@ -28,3 +28,8 @@ if __name__ == "__main__":
     example_array = [12, 11, 13, 5, 6]
     sorted_array = insertion_sort_descending(example_array)
     print("Sorted array in descending order is:", sorted_array)
+
+    # Additional test cases
+    another_array = [3, 8, 2, 7, 1, 10]
+    sorted_array = insertion_sort_descending(another_array)
+    print("Another sorted array in descending order is:", sorted_array)
